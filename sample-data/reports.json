@@ -1,0 +1,219 @@
+{
+  "reports": [
+    {
+      "id": "REP-2023-Q3-001",
+      "templateId": "TMP-QUARTERLY-PROGRESS",
+      "grantId": "GR-2023-001",
+      "period": {
+        "start": "2023-07-01",
+        "end": "2023-09-30",
+        "label": "Q3 2023"
+      },
+      "generatedAt": "2023-10-15T14:30:00Z",
+      "generatedBy": "system-auto",
+      "status": "published",
+      "content": {
+        "executiveSummary": {
+          "overallStatus": "on-track",
+          "keyAchievements": [
+            "Successfully established first community health clinic",
+            "Exceeded screening target by 5%",
+            "Maintained cost efficiency below budget"
+          ],
+          "keyChallenges": [
+            "Minor delay in clinic opening due to permit processing",
+            "Staff recruitment taking longer than anticipated"
+          ],
+          "recommendations": [
+            "Accelerate recruitment for remaining clinic positions",
+            "Begin site selection for second clinic immediately"
+          ]
+        },
+        "financialSummary": {
+          "budgetAllocation": {
+            "totalBudget": 1500000,
+            "allocatedToDate": 450000,
+            "expendedToDate": 322500,
+            "remainingBalance": 1177500
+          },
+          "expenditureByCategory": [
+            {"category": "Personnel", "budgeted": 600000, "actual": 157500, "variance": 0.2625},
+            {"category": "Equipment", "budgeted": 300000, "actual": 125000, "variance": 0.4167},
+            {"category": "Facilities", "budgeted": 200000, "actual": 15000, "variance": 0.075},
+            {"category": "Supplies", "budgeted": 150000, "actual": 45000, "variance": 0.3},
+            {"category": "Training", "budgeted": 100000, "actual": 0, "variance": 0},
+            {"category": "Administration", "budgeted": 150000, "actual": 0, "variance": 0}
+          ],
+          "financialHealth": {
+            "utilizationRate": 0.215,
+            "burnRate": 53750,
+            "runwayMonths": 21.9,
+            "costPerBeneficiary": 285.71
+          }
+        },
+        "programProgress": {
+          "milestoneStatus": {
+            "total": 5,
+            "completed": 3,
+            "inProgress": 1,
+            "pending": 1,
+            "delayed": 0,
+            "completionRate": 0.6
+          },
+          "kpiPerformance": [
+            {
+              "name": "Beneficiaries Screened",
+              "target": 500,
+              "actual": 525,
+              "achievement": 1.05,
+              "status": "exceeding"
+            },
+            {
+              "name": "Emergency Room Visit Reduction",
+              "target": 25,
+              "actual": 18,
+              "achievement": 0.72,
+              "status": "on-track"
+            },
+            {
+              "name": "Cost Per Screening",
+              "target": 300,
+              "actual": 285,
+              "achievement": 0.95,
+              "status": "exceeding"
+            },
+            {
+              "name": "Community Satisfaction Score",
+              "target": 4.0,
+              "actual": 4.3,
+              "achievement": 1.075,
+              "status": "exceeding"
+            }
+          ],
+          "timelineAssessment": {
+            "elapsedTime": 0.25,
+            "progressAchieved": 0.35,
+            "variance": 0.1,
+            "assessment": "ahead-of-schedule"
+          }
+        },
+        "complianceStatus": {
+          "overallCompliance": 0.85,
+          "requirements": [
+            {
+              "id": "COMP-001",
+              "name": "Quarterly Financial Reporting",
+              "status": "compliant",
+              "evidence": ["Q3 Financial Statement submitted 2023-10-10"],
+              "severity": "high"
+            },
+            {
+              "id": "COMP-002",
+              "name": "Program Progress Reporting",
+              "status": "compliant",
+              "evidence": ["Q3 Progress Report submitted 2023-10-15"],
+              "severity": "medium"
+            },
+            {
+              "id": "COMP-003",
+              "name": "Beneficiary Data Privacy",
+              "status": "compliant",
+              "evidence": ["HIPAA Compliance Certificate on file", "Data Security Plan approved"],
+              "severity": "high"
+            },
+            {
+              "id": "COMP-004",
+              "name": "Matching Funds Documentation",
+              "status": "pending",
+              "evidence": ["$150,000 of matching funds documented", "Remaining $150,000 in process"],
+              "severity": "high"
+            }
+          ],
+          "issues": [
+            {
+              "id": "ISSUE-001",
+              "description": "Partial matching funds documentation",
+              "severity": "medium",
+              "correctiveAction": "Complete documentation for remaining matching funds by Q4 2023",
+              "responsibleParty": "Michael Chen",
+              "dueDate": "2023-12-31"
+            }
+          ]
+        },
+        "riskAssessment": {
+          "overallRisk": "medium",
+          "riskFactors": [
+            {
+              "factor": "Staff Recruitment",
+              "likelihood": "medium",
+              "impact": "high",
+              "mitigation": "Extended recruitment outreach to neighboring regions"
+            },
+            {
+              "factor": "Permit Processing Delays",
+              "likelihood": "low",
+              "impact": "medium",
+              "mitigation": "Engage expedited permitting service for future clinics"
+            },
+            {
+              "factor": "Community Engagement",
+              "likelihood": "low",
+              "impact": "low",
+              "mitigation": "Increase community outreach activities"
+            }
+          ],
+          "riskScore": 0.42
+        },
+        "narrative": {
+          "accomplishments": "The program successfully launched its first community health clinic in the underserved Oakwood neighborhood. Despite minor delays in permitting, the clinic became operational in October and has already served over 500 community members with preventive health screenings. Community response has been overwhelmingly positive, with satisfaction scores exceeding targets.",
+          "challenges": "Recruitment for specialized healthcare positions has proven more challenging than anticipated, with two key positions remaining unfilled after three months of recruitment efforts. This has temporarily limited the clinic's operating hours.",
+          "lessonsLearned": "Early engagement with local permitting authorities is critical for timely clinic establishment. Partnerships with local nursing programs could help address recruitment challenges.",
+          "nextQuarterPlans": [
+            "Begin site selection and planning for second clinic",
+            "Launch community health worker training program",
+            "Implement electronic health records system",
+            "Expand screening services to include chronic disease management"
+          ]
+        }
+      },
+      "metadata": {
+        "version": 1,
+        "checksum": "a1b2c3d4e5f67890123456789abcdef0",
+        "storageLocation": "s3://grantready-reports/2023/Q3/GR-2023-001.pdf",
+        "formats": ["pdf", "json", "html"]
+      },
+      "auditTrail": [
+        {
+          "timestamp": "2023-10-15T10:00:00Z",
+          "action": "generated",
+          "user": "system-auto",
+          "details": "Report generated from template TMP-QUARTERLY-PROGRESS"
+        },
+        {
+          "timestamp": "2023-10-15T11:30:00Z",
+          "action": "reviewed",
+          "user": "michael.chen",
+          "details": "Program Director review completed"
+        },
+        {
+          "timestamp": "2023-10-15T14:30:00Z",
+          "action": "approved",
+          "user": "sarah.johnson",
+          "details": "Grant Manager approval completed"
+        },
+        {
+          "timestamp": "2023-10-15T15:00:00Z",
+          "action": "published",
+          "user": "system-auto",
+          "details": "Report published to grant portal and distributed to stakeholders"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "totalReports": 1,
+    "generatedAt": "2024-01-15T10:00:00Z",
+    "schemaVersion": "1.0",
+    "description": "Sample report data for GrantReady Analytics demonstration"
+  }
+            }
