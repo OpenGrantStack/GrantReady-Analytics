@@ -1,0 +1,318 @@
+{
+  "grants": [
+    {
+      "id": "GR-2023-001",
+      "grantNumber": "HHS-2023-COMM-001",
+      "title": "Community Health Outreach Program",
+      "description": "Three-year program to improve access to preventive healthcare services in underserved communities.",
+      "type": "federal",
+      "status": "active",
+      "totalFunding": 1500000,
+      "awardedAmount": 1500000,
+      "matchingRequirement": 300000,
+      "fundingSource": "Department of Health and Human Services",
+      "grantManager": "Sarah Johnson",
+      "applicationDate": "2023-01-15",
+      "awardDate": "2023-03-20",
+      "startDate": "2023-04-01",
+      "endDate": "2026-03-31",
+      "reportingFrequency": "quarterly",
+      "recipient": {
+        "id": "ORG-001",
+        "name": "Community Health Partners",
+        "type": "non-profit",
+        "taxId": "12-3456789",
+        "address": {
+          "street": "123 Health Ave",
+          "city": "Springfield",
+          "state": "IL",
+          "postalCode": "62701",
+          "country": "USA"
+        },
+        "contact": {
+          "name": "Dr. Michael Chen",
+          "email": "mchen@communityhealth.org",
+          "phone": "(217) 555-0123",
+          "role": "Executive Director"
+        },
+        "registrationDate": "2015-06-10"
+      },
+      "grantor": {
+        "id": "GOV-001",
+        "name": "Department of Health and Human Services",
+        "type": "government",
+        "address": {
+          "street": "200 Independence Ave SW",
+          "city": "Washington",
+          "state": "DC",
+          "postalCode": "20201",
+          "country": "USA"
+        },
+        "contact": {
+          "name": "Robert Williams",
+          "email": "robert.williams@hhs.gov",
+          "phone": "(202) 555-0100",
+          "role": "Grant Program Officer"
+        },
+        "registrationDate": "1953-04-11"
+      },
+      "objectives": [
+        "Increase preventive healthcare screenings by 40%",
+        "Reduce emergency room visits for preventable conditions by 25%",
+        "Train 50 community health workers",
+        "Establish 5 community health clinics"
+      ],
+      "targetBeneficiaries": "Low-income families, elderly residents, and underserved communities in Springfield and surrounding areas",
+      "geographicScope": "Springfield metropolitan area and five surrounding counties",
+      "milestones": [
+        {
+          "id": "MIL-001",
+          "name": "Program Planning Phase Completion",
+          "description": "Complete detailed program plan, staffing, and partnership agreements",
+          "dueDate": "2023-06-30",
+          "completionDate": "2023-06-25",
+          "status": "completed",
+          "deliverables": ["Program Plan Document", "Staff Hiring Report", "Partner MOUs"],
+          "dependencies": []
+        },
+        {
+          "id": "MIL-002",
+          "name": "First Clinic Establishment",
+          "description": "Establish and operationalize first community health clinic",
+          "dueDate": "2023-09-30",
+          "completionDate": "2023-10-15",
+          "status": "completed",
+          "deliverables": ["Clinic Lease Agreement", "Equipment Purchase Orders", "Staff Training Completion"],
+          "dependencies": ["MIL-001"]
+        },
+        {
+          "id": "MIL-003",
+          "name": "500 Screenings Completed",
+          "description": "Complete preventive health screenings for 500 beneficiaries",
+          "dueDate": "2023-12-31",
+          "completionDate": "2023-12-20",
+          "status": "completed",
+          "deliverables": ["Screening Database", "Health Report Summary", "Referral Tracking"],
+          "dependencies": ["MIL-002"]
+        },
+        {
+          "id": "MIL-004",
+          "name": "Second Clinic Establishment",
+          "description": "Establish and operationalize second community health clinic",
+          "dueDate": "2024-03-31",
+          "status": "in-progress",
+          "deliverables": ["Site Selection Report", "Renovation Plans", "Equipment Orders"],
+          "dependencies": ["MIL-002"]
+        },
+        {
+          "id": "MIL-005",
+          "name": "Community Health Worker Training Complete",
+          "description": "Complete training for all 50 community health workers",
+          "dueDate": "2024-06-30",
+          "status": "pending",
+          "deliverables": ["Training Curriculum", "Certification Records", "Deployment Plan"],
+          "dependencies": ["MIL-001"]
+        }
+      ],
+      "expenditures": [
+        {
+          "id": "EXP-001",
+          "date": "2023-05-15",
+          "category": "Personnel",
+          "description": "Program Director Salary - Q2 2023",
+          "amount": 37500,
+          "receiptUrl": "https://storage.example.com/receipts/exp001.pdf",
+          "status": "approved",
+          "approvedBy": "Robert Williams",
+          "approvedDate": "2023-05-20"
+        },
+        {
+          "id": "EXP-002",
+          "date": "2023-06-10",
+          "category": "Equipment",
+          "description": "Medical equipment for Clinic 1",
+          "amount": 125000,
+          "receiptUrl": "https://storage.example.com/receipts/exp002.pdf",
+          "status": "approved",
+          "approvedBy": "Robert Williams",
+          "approvedDate": "2023-06-15"
+        },
+        {
+          "id": "EXP-003",
+          "date": "2023-07-22",
+          "category": "Facilities",
+          "description": "Clinic 1 lease deposit and first month rent",
+          "amount": 15000,
+          "receiptUrl": "https://storage.example.com/receipts/exp003.pdf",
+          "status": "approved",
+          "approvedBy": "Robert Williams",
+          "approvedDate": "2023-07-25"
+        },
+        {
+          "id": "EXP-004",
+          "date": "2023-10-05",
+          "category": "Program Supplies",
+          "description": "Screening kits and medical supplies",
+          "amount": 45000,
+          "receiptUrl": "https://storage.example.com/receipts/exp004.pdf",
+          "status": "approved",
+          "approvedBy": "Robert Williams",
+          "approvedDate": "2023-10-10"
+        },
+        {
+          "id": "EXP-005",
+          "date": "2023-11-15",
+          "category": "Personnel",
+          "description": "Community Health Worker Salaries - Q4 2023",
+          "amount": 120000,
+          "receiptUrl": "https://storage.example.com/receipts/exp005.pdf",
+          "status": "pending",
+          "approvedBy": null,
+          "approvedDate": null
+        }
+      ],
+      "kpis": [
+        {
+          "id": "KPI-001",
+          "name": "Beneficiaries Screened",
+          "description": "Number of individuals receiving preventive health screenings",
+          "currentValue": 525,
+          "targetValue": 500,
+          "unit": "individuals",
+          "measurementFrequency": "monthly",
+          "dataSource": "Screening Database",
+          "status": "exceeding"
+        },
+        {
+          "id": "KPI-002",
+          "name": "Emergency Room Visit Reduction",
+          "description": "Percentage reduction in preventable ER visits among program participants",
+          "currentValue": 18,
+          "targetValue": 25,
+          "unit": "percentage",
+          "measurementFrequency": "quarterly",
+          "dataSource": "Hospital Records Analysis",
+          "status": "on-track"
+        },
+        {
+          "id": "KPI-003",
+          "name": "Cost Per Screening",
+          "description": "Average cost to complete one preventive health screening",
+          "currentValue": 285,
+          "targetValue": 300,
+          "unit": "dollars",
+          "measurementFrequency": "quarterly",
+          "dataSource": "Financial Reports",
+          "status": "exceeding"
+        },
+        {
+          "id": "KPI-004",
+          "name": "Community Satisfaction Score",
+          "description": "Average satisfaction rating from program participants (1-5 scale)",
+          "currentValue": 4.3,
+          "targetValue": 4.0,
+          "unit": "rating",
+          "measurementFrequency": "quarterly",
+          "dataSource": "Participant Surveys",
+          "status": "exceeding"
+        }
+      ],
+      "documents": [
+        {
+          "id": "DOC-001",
+          "type": "Grant Agreement",
+          "name": "HHS-2023-COMM-001 Grant Agreement.pdf",
+          "url": "https://storage.example.com/documents/grant-agreement.pdf",
+          "uploadDate": "2023-03-25",
+          "uploadedBy": "Sarah Johnson",
+          "status": "approved",
+          "reviewNotes": "Fully executed agreement"
+        },
+        {
+          "id": "DOC-002",
+          "type": "Quarterly Report",
+          "name": "Q3 2023 Progress Report.pdf",
+          "url": "https://storage.example.com/documents/q3-2023-report.pdf",
+          "uploadDate": "2023-10-15",
+          "uploadedBy": "Michael Chen",
+          "status": "approved",
+          "reviewNotes": "Comprehensive report, all requirements met"
+        },
+        {
+          "id": "DOC-003",
+          "type": "Financial Statement",
+          "name": "Q3 2023 Financial Statement.pdf",
+          "url": "https://storage.example.com/documents/q3-2023-financial.pdf",
+          "uploadDate": "2023-10-20",
+          "uploadedBy": "Sarah Johnson",
+          "status": "reviewed",
+          "reviewNotes": "Pending final approval from finance department"
+        }
+      ],
+      "complianceRequirements": [
+        {
+          "id": "COMP-001",
+          "name": "Quarterly Financial Reporting",
+          "description": "Submission of detailed financial statements within 30 days of quarter end",
+          "type": "financial",
+          "severity": "high",
+          "applicableFrom": "2023-04-01",
+          "dueDate": "2023-10-30",
+          "parameters": {
+            "reportType": "quarterly-financial",
+            "requiredDocuments": ["Income Statement", "Balance Sheet", "Cash Flow Statement"]
+          }
+        },
+        {
+          "id": "COMP-002",
+          "name": "Program Progress Reporting",
+          "description": "Detailed progress report including milestone achievement and challenges",
+          "type": "reporting",
+          "severity": "medium",
+          "applicableFrom": "2023-04-01",
+          "dueDate": "2023-10-15",
+          "parameters": {
+            "reportType": "quarterly-progress",
+            "requiredSections": ["Milestone Status", "KPI Achievement", "Challenges", "Corrective Actions"]
+          }
+        },
+        {
+          "id": "COMP-003",
+          "name": "Beneficiary Data Privacy",
+          "description": "Compliance with HIPAA regulations for health data protection",
+          "type": "documentation",
+          "severity": "high",
+          "applicableFrom": "2023-04-01",
+          "parameters": {
+            "requiredDocuments": ["HIPAA Compliance Certificate", "Data Security Plan", "Privacy Policy"]
+          }
+        },
+        {
+          "id": "COMP-004",
+          "name": "Matching Funds Documentation",
+          "description": "Documentation of matching funds as specified in grant agreement",
+          "type": "financial",
+          "severity": "high",
+          "applicableFrom": "2023-04-01",
+          "dueDate": "2024-03-31",
+          "parameters": {
+            "minMatchingAmount": 300000,
+            "documentationRequired": ["Bank Statements", "Donor Letters", "Board Resolutions"]
+          }
+        }
+      ],
+      "createdBy": "system-admin",
+      "createdAt": "2023-03-20T10:30:00Z",
+      "updatedBy": "sarah.johnson",
+      "updatedAt": "2023-12-01T14:20:00Z",
+      "version": 3,
+      "tags": ["health", "preventive-care", "community-outreach", "federal-grant"]
+    }
+  ],
+  "metadata": {
+    "totalGrants": 1,
+    "generatedAt": "2024-01-15T09:00:00Z",
+    "schemaVersion": "1.0",
+    "description": "Sample grant data for GrantReady Analytics demonstration"
+  }
+}
