@@ -167,7 +167,7 @@ Support
 
 · Documentation: docs/
 · Issues: GitHub Issues
-· Security Concerns: security@your-org.com
+· Security Concerns: security@opengrantstack.com
 
 Acknowledgments
 
